@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 -20 2630 660" width="2630" height="660" font-family="Inter, sans-serif">
+<g data-node="cloud">
+<rect x="150" y="0" width="2270" height="620" fill="none" stroke="#242F3E" stroke-width="1"/>
+<text x="166" y="21" fill="#202124" font-size="12" font-weight="700">AWS Cloud</text>
+</g>
+<g data-node="region">
+<rect x="466" y="41" width="1930" height="560" fill="none" stroke="#00A4A6" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="482" y="62" fill="#202124" font-size="12" font-weight="700">Region: eu-west-1</text>
+</g>
+<g data-node="vpc">
+<rect x="672" y="102" width="1480" height="450" fill="none" stroke="#8C4FFF" stroke-width="1"/>
+<text x="688" y="123" fill="#202124" font-size="12" font-weight="700">VPC: 10.0.0.0/16</text>
+</g>
+<g data-node="az-a">
+<rect x="688" y="163" width="710" height="370" fill="none" stroke="#00A4A6" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="704" y="184" fill="#202124" font-size="12" font-weight="700">Availability Zone A</text>
+</g>
+<g data-node="az-b">
+<rect x="1418" y="163" width="710" height="370" fill="none" stroke="#00A4A6" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="1434" y="184" fill="#202124" font-size="12" font-weight="700">Availability Zone B</text>
+</g>
+<g data-node="private-a">
+<rect x="704" y="344" width="670" height="170" fill="none" stroke="#00A4A6" stroke-width="1"/>
+<text x="720" y="365" fill="#202124" font-size="12" font-weight="700">Private subnet</text>
+</g>
+<g data-node="private-b">
+<rect x="1434" y="344" width="670" height="170" fill="none" stroke="#00A4A6" stroke-width="1"/>
+<text x="1450" y="365" fill="#202124" font-size="12" font-weight="700">Private subnet</text>
+</g>
+<g data-node="public-a">
+<rect x="704" y="204" width="670" height="120" fill="none" stroke="#7AA116" stroke-width="1"/>
+<text x="720" y="225" fill="#202124" font-size="12" font-weight="700">Public subnet</text>
+</g>
+<g data-node="public-b">
+<rect x="1434" y="204" width="670" height="120" fill="none" stroke="#7AA116" stroke-width="1"/>
+<text x="1450" y="225" fill="#202124" font-size="12" font-weight="700">Public subnet</text>
+</g>
+<g data-node="payments">
+<rect x="2450" y="230" width="140" height="40" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="2520" y="255" text-anchor="middle" fill="#202124" font-size="14">Payment provider</text>
+</g>
+<g data-node="users">
+<rect x="0" y="170" width="100" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="50" y="199" text-anchor="middle" fill="#202124" font-size="12">Customers</text>
+</g>
+<g data-node="cdn">
+<rect x="206" y="161" width="160" height="60" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="286" y="196" text-anchor="middle" fill="#202124" font-size="14">Amazon CloudFront</text>
+</g>
+<g data-node="dns">
+<rect x="206" y="41" width="150" height="60" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="281" y="76" text-anchor="middle" fill="#202124" font-size="14">Amazon Route 53</text>
+</g>
+<g data-node="assets">
+<rect x="482" y="152" width="130" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="547" y="182" text-anchor="middle" fill="#202124" font-size="14">Amazon Simple</text>
+<text x="547" y="202" text-anchor="middle" fill="#202124" font-size="14">Storage Service</text>
+</g>
+<g data-node="igw">
+<rect x="1352" y="82" width="120" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1412" y="111" text-anchor="middle" fill="#202124" font-size="12">Internet gateway</text>
+</g>
+<g data-node="orders">
+<rect x="2192" y="462" width="180" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="2282" y="492" text-anchor="middle" fill="#202124" font-size="14">Amazon Simple Queue</text>
+<text x="2282" y="512" text-anchor="middle" fill="#202124" font-size="14">Service</text>
+</g>
+<g data-node="worker">
+<rect x="2222" y="222" width="120" height="60" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="2282" y="257" text-anchor="middle" fill="#202124" font-size="14">AWS Lambda</text>
+</g>
+<g data-node="alb-a">
+<rect x="950" y="245" width="180" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1040" y="274" text-anchor="middle" fill="#202124" font-size="12">Application Load Balancer</text>
+</g>
+<g data-node="alb-b">
+<rect x="1700" y="245" width="180" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1790" y="274" text-anchor="middle" fill="#202124" font-size="12">Application Load Balancer</text>
+</g>
+<g data-node="app-a">
+<rect x="970" y="385" width="140" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1040" y="424" text-anchor="middle" fill="#202124" font-size="12">Application server</text>
+</g>
+<g data-node="app-b">
+<rect x="1720" y="385" width="140" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1790" y="424" text-anchor="middle" fill="#202124" font-size="12">Application server</text>
+</g>
+<g data-node="cache">
+<rect x="720" y="385" width="160" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="800" y="415" text-anchor="middle" fill="#202124" font-size="14">Amazon ElastiCache</text>
+<text x="800" y="435" text-anchor="middle" fill="#202124" font-size="14">primary</text>
+</g>
+<g data-node="cache-b">
+<rect x="1920" y="385" width="160" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="2000" y="415" text-anchor="middle" fill="#202124" font-size="14">Amazon ElastiCache</text>
+<text x="2000" y="435" text-anchor="middle" fill="#202124" font-size="14">replica</text>
+</g>
+<g data-node="db">
+<rect x="1190" y="385" width="130" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1255" y="415" text-anchor="middle" fill="#202124" font-size="14">Amazon Aurora</text>
+<text x="1255" y="435" text-anchor="middle" fill="#202124" font-size="14">primary</text>
+</g>
+<g data-node="nat-a">
+<rect x="1200" y="245" width="100" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1250" y="274" text-anchor="middle" fill="#202124" font-size="12">NAT gateway</text>
+</g>
+<g data-node="nat-b">
+<rect x="1490" y="245" width="100" height="50" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1540" y="274" text-anchor="middle" fill="#202124" font-size="12">NAT gateway</text>
+</g>
+<g data-node="replica">
+<rect x="1450" y="385" width="180" height="70" rx="8" fill="#F1F3F4" stroke="#5F6368" stroke-width="1.5"/>
+<text x="1540" y="425" text-anchor="middle" fill="#202124" font-size="14">Amazon Aurora replica</text>
+</g>
+<g data-edge="browse">
+<path d="M100 193 L206 193" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M196 198 L206 193 L196 188" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="128" y="185" width="50" height="17" fill="#FFFFFF"/>
+<text x="153" y="198" text-anchor="middle" fill="#202124" font-size="12">HTTPS</text>
+</g>
+<g data-edge="charge">
+<path d="M2342 251 L2450 251" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M2440 256 L2450 251 L2440 246" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="consume">
+<path d="M2282 462 L2282 282" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M2287 292 L2282 282 L2277 292" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="dynamic">
+<path d="M366 181 L378 181 L378 70 L1412 70 L1412 82" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1407 72 L1412 82 L1417 72" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="egress-a">
+<path d="M1040 385 L1040 373 L1250 373 L1250 295" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1255 305 L1250 295 L1245 305" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="egress-b">
+<path d="M1790 385 L1790 373 L1780 373 L1780 335 L1640 335 L1640 307 L1540 307 L1540 295" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1545 305 L1540 295 L1535 305" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="enqueue-a">
+<path d="M1040 455 L1040 570 L2282 570 L2282 532" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M2287 542 L2282 532 L2277 542" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="enqueue-b">
+<path d="M1790 455 L1790 467 L2000 467 L2000 500 L2180 500 L2180 497 L2192 497" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M2182 502 L2192 497 L2182 492" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="enter-a">
+<path d="M1412 132 L1412 144 L1400 144 L1400 150 L1040 150 L1040 245" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1035 235 L1040 245 L1045 235" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="enter-b">
+<path d="M1412 132 L1412 144 L1790 144 L1790 245" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1785 235 L1790 245 L1795 235" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="out-a">
+<path d="M1250 245 L1250 233 L1412 233 L1412 132" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1417 142 L1412 132 L1407 142" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="out-b">
+<path d="M1540 245 L1540 233 L1428 233 L1428 144 L1412 144 L1412 132" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1417 142 L1412 132 L1407 142" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="read-b">
+<path d="M1720 420 L1630 420" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1640 415 L1630 420 L1640 425" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="1655" y="412" width="40" height="17" fill="#FFFFFF"/>
+<text x="1675" y="425" text-anchor="middle" fill="#202124" font-size="12">reads</text>
+</g>
+<g data-edge="replicate">
+<path d="M1320 420 L1450 420" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1440 425 L1450 420 L1440 415" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="1350" y="412" width="70" height="17" fill="#FFFFFF"/>
+<text x="1385" y="425" text-anchor="middle" fill="#202124" font-size="12">replication</text>
+</g>
+<g data-edge="resolve">
+<path d="M50 170 L50 158 L194 158 L194 71 L206 71" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M196 76 L206 71 L196 66" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="174" y="114" width="40" height="17" fill="#FFFFFF"/>
+<text x="194" y="127" text-anchor="middle" fill="#202124" font-size="12">DNS</text>
+</g>
+<g data-edge="route-a">
+<path d="M1040 295 L1040 385" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1035 375 L1040 385 L1045 375" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="route-b">
+<path d="M1790 295 L1790 307 L1800 307 L1800 373 L1790 373 L1790 385" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1785 375 L1790 385 L1795 375" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="session-a">
+<path d="M970 420 L880 420" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M890 415 L880 420 L890 425" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="session-b">
+<path d="M1860 420 L1920 420" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1910 425 L1920 420 L1910 415" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="static">
+<path d="M366 194 L482 194" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M472 199 L482 194 L472 189" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="364" y="186" width="80" height="17" fill="#FFFFFF"/>
+<text x="404" y="199" text-anchor="middle" fill="#202124" font-size="12">static assets</text>
+</g>
+<g data-edge="write-a">
+<path d="M1110 420 L1190 420" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1180 425 L1190 420 L1180 415" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+</g>
+<g data-edge="write-b">
+<path d="M1790 455 L1790 467 L1255 467 L1255 455" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<path d="M1260 465 L1255 455 L1250 465" fill="none" stroke="#3C4043" stroke-width="1.5"/>
+<rect x="1498" y="459" width="50" height="17" fill="#FFFFFF"/>
+<text x="1523" y="472" text-anchor="middle" fill="#202124" font-size="12">writes</text>
+</g>
+</svg>
