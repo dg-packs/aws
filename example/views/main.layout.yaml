@@ -1,0 +1,59 @@
+version: 1
+place:
+  alb-a: {in: public-a, x: 230, y: 0}
+  alb-b: {in: public-b, x: 250, y: 0}
+  app-a: {in: private-a, x: 250, y: 0, w: 140, h: 70}
+  app-b: {in: private-b, x: 270, y: 0, w: 140, h: 70}
+  assets: {in: region, x: 0, y: 70}
+  az-a: {in: vpc, x: 0, y: 20}
+  az-b: {in: vpc, x: 730, y: 20}
+  cache: {in: private-a, x: 0, y: 0}
+  cache-b: {in: private-b, x: 470, y: 0}
+  cdn: {in: cloud, x: 40, y: 120}
+  cloud: {x: 150, y: 0}
+  db: {in: private-a, x: 470, y: 0}
+  dns: {in: cloud, x: 40, y: 0}
+  igw: {in: region, x: 870, y: 0}
+  nat-a: {in: public-a, x: 480, y: 0}
+  nat-b: {in: public-b, x: 40, y: 0}
+  orders: {in: region, x: 1710, y: 380}
+  payments: {x: 2450, y: 230}
+  private-a: {in: az-a, x: 0, y: 140, w: 670, h: 170}
+  private-b: {in: az-b, x: 0, y: 140, w: 670, h: 170}
+  public-a: {in: az-a, x: 0, y: 0, w: 670}
+  public-b: {in: az-b, x: 0, y: 0, w: 670}
+  region: {in: cloud, x: 300, y: 0, h: 560}
+  replica: {in: private-b, x: 0, y: 0, h: 70}
+  users: {x: 0, y: 170}
+  vpc: {in: region, x: 190, y: 20}
+  worker: {in: region, x: 1740, y: 140}
+edge_hints:
+  dynamic: {to_side: top}
+  egress-a: {from_side: top, to_side: bottom}
+  egress-b:
+    from_side: top
+    to_side: bottom
+    via: [[1640, 335]]
+  enqueue-a:
+    from_side: bottom
+    to_side: bottom
+    via: [[1040, 570]]
+  enqueue-b:
+    from_side: bottom
+    to_side: left
+    via: [[2000, 500]]
+  enter-a:
+    from_side: bottom
+    to_side: top
+    via: [[1040, 150]]
+  enter-b:
+    from_side: bottom
+    to_side: top
+    via: [[1790, 150]]
+  out-a: {from_side: top, to_side: bottom}
+  out-b: {from_side: top, to_side: bottom}
+  resolve: {from_side: top, to_side: left, label_pos: 0.75}
+  route-a: {from_side: bottom, to_side: top}
+  route-b: {from_side: bottom, to_side: top}
+  static: {label_pos: 0.33}
+  write-b: {from_side: bottom, to_side: bottom}

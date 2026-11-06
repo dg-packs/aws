@@ -1,0 +1,113 @@
+dg pack for AWS: notices
+
+This pack is not made, sponsored, endorsed or approved by Amazon Web Services, Inc. or its
+affiliates ("AWS"), and has no relationship with them. It uses AWS's names to refer to AWS's products.
+
+
+WHAT IS WHOSE
+
+This pack holds no art of AWS's: every file is this project's, under LICENSE. Files altered: none,
+since no AWS file is held. AWS's names remain AWS's marks wherever they appear, in kind names too.
+The kinds are named from AWS Architecture Icons, release 24-2026.07.31,
+https://aws.amazon.com/architecture/icons/ , read on 2026-11-07. gen.py can add the icons from
+AWS's download; read the terms below first.
+
+
+AWS'S TERMS
+
+All quotes read on 2026-11-07. They hold no license aimed at redistributing the icons: no sentence
+below says that they may or may not be copied into a repository as a tool's data. AWS may change any
+of them at any time.
+
+From https://aws.amazon.com/architecture/icons/ :
+
+  "To help you build diagrams, this page has Amazon Web Services (AWS) product icons, resources, and
+  tools you can use. We allow customers and partners to use these toolkits and assets to create
+  architecture diagrams."
+
+  "You can also put icons in materials like whitepapers, presentations, data sheets, and posters."
+
+  "You can build diagrams with preexisting libraries on third-party tools. Check that you’re using
+  up-to-date icons, because some libraries may contain legacy icon sets."
+
+From the deck in the same release, AWS-Architecture-Icons-Deck_For-Light-BG_07312026.pptx:
+
+  Slide 5: "Customers and partners can use AWS icons to create architecture diagrams. The icons are
+  basic in design so that you can incorporate them directly into your whitepapers, presentations,
+  datasheets, posters, or any technical material that you want."
+
+  Slide 14, on groups: "DON’T: Create groups with nonapproved AWS icon(s). Resize group icons."
+
+  Slide 15, on icons: "For diagrams, use icons at their predefined size and do not resize." "DO: Use
+  icons at their predefined size, color and format in diagrams." "DON’T: Crop service icons. Flip or
+  rotate icons. Change icon shapes."
+
+  Slide 25: "In certain AWS Regions (e.g., China), AWS does not own the rights for the logo using
+  the letters “AWS.” Per our guidelines, use the group with the AWS logo except in Regions where the
+  AWS logo cannot be used. You may use the group with the cloud icon in those cases."
+
+From the AWS Site Terms, last updated June 4, 2025, https://aws.amazon.com/terms/ :
+
+  "All content included on the AWS Site, such as text, graphics, logos, button icons, images, audio
+  clips, digital downloads, data compilations, and software, is the property of AWS or its content
+  suppliers and protected by United States and international copyright laws."
+
+  "“Amazon Web Services” and all related marks, including logos, graphic designs, and service names,
+  are trademarks or trade dress of AWS in the U.S. and other countries. AWS’s trademarks and trade
+  dress may not be used in connection with any product or service that is not AWS’s, in any manner
+  that is likely to cause confusion among customers, or in any manner that disparages or discredits
+  AWS."
+
+  "Unless otherwise specified by AWS in a separate license, your right to use any software, data,
+  documentation or other materials that you access or download through the AWS Site is subject to
+  these Site Terms or, if you have an AWS account, the Agreement."
+
+  "The AWS Site or any portion of the AWS Site may not be reproduced, duplicated, copied, sold,
+  resold, visited, or otherwise exploited for any commercial purpose without express written consent
+  or license of AWS."
+
+From the AWS Intellectual Property License, last updated October 27, 2025,
+https://aws.amazon.com/legal/aws-ip-license-terms/ , which applies to AWS account holders:
+
+  "Neither you nor any End User will, or will attempt to (a) modify, distribute, alter, tamper with,
+  repair, or otherwise create derivative works of any Content included in the Services or AWS Content
+  (except to the extent such Content is provided to you under a separate license that expressly
+  permits the creation of derivative works), or (b) sublicense the Services or AWS Content."
+
+From the AWS Trademark Guidelines & License Terms, last updated November 5, 2026,
+https://aws.amazon.com/trademark-guidelines/ :
+
+  Section 2: "“AWS Marks” means trademarks, service marks, names, logos, or other designations owned
+  by AWS, including, but not limited to: (i) AWS and the AWS Smile Logo; [...] and (iv) all other
+  names and logos associated with AWS products, services, events, programs, and initiatives".
+
+  Section 5: "You will not misrepresent or embellish your relationship with AWS. You will not
+  display the AWS Marks in any manner that implies sponsorship or endorsement by AWS other than by
+  using the Marks as specifically authorized by AWS."
+
+  Section 7: "You will not incorporate AWS Marks into the names of your organization, products, or
+  services, or into your trademarks or logos."
+
+  Section 9: "You will not alter the logo images in any manner, including but not limited to
+  changing the proportion, color, or font of the AWS Marks, or adding or removing any elements to or
+  from the images."
+
+  Section 10: "You will not imitate the trade dress or “look and feel” of any AWS website, including
+  without limitation, the branding, color combinations, fonts, graphic designs, product icons, or
+  other elements associated with AWS."
+
+  Section 13: "AWS does not object to fair use of its marks by third parties, so long as the use
+  would not be confusing for customers. Any such use should be in plain text only (no logos) and used
+  to make true factual statements. Fair use does not permit you to state or imply affiliation,
+  sponsorship, or endorsement by AWS."
+
+  Section 15: "In most cases, AWS does not provide licenses or other authorization for use of AWS
+  content in third party publications, including screenshots, diagrams, code, documentation, or other
+  copyrightable materials."
+
+
+WHAT THIS MEANS FOR YOU
+
+This build needs no permission for art, since it has none. If you regenerate it with the icons, the
+terms above apply to them; LICENSE does not cover them, and this pack gives you no rights in AWS's
+icons or marks.
