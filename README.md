@@ -9,10 +9,8 @@ AWS. This build holds no icons: services and resources are rounded boxes, groups
 
 ## Install
 
-Until it is published, tag and install from a clone:
-
 ```sh
-dg pack add file:///path/to/aws
+dg pack add aws
 ```
 
 Kinds take the prefix `aws-`:
